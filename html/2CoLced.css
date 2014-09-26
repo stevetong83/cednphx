@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: black;
+	text-align: left;
+	background-color: #000;
+	padding-right20px;
+	}
+
+p  {
+	text-indent:40px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align: left;
+	color:#FFF;
+	font-weight:bold;
+}
+
+h1  {
+    font-size:2.5em;
+	font-style: italic;
+	text-align: left;
+	text-indent:20px;
+}
+
+h2  {
+	font-size:2em;
+	font-weight: bold;
+	text-align: left;
+	text-indent:20px;
+	left:20px;
+	color: #FFF;
+}
+h3   {
+	alignment: left;
+	font-size:1.25em;
+	color: #00F;
+}
+h4   {
+	alignment: center;
+	font-size:1.5em;
+}
+a:link  {
+	text-decoration :none;
+	color: white;
+		
+}
+a:visited  {
+	color: light blue;
+}
+a:hover  {
+	color: blue; 
+	text-decoration: underline; 
+	
+}
+
+
+a:active  {
+	color: "dark blue";
+}
+
+
+div#page {
+  background-color:#000;
+  width:960px;
+  margin:0 auto;
+ 
+  
+}
+ div {
+  text-align:center;
+}
+
+div#header {
+	width:960px;
+	height:180px;
+	background-image:url(images/headerLOGOnew.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+ ul#navigation {
+ padding: 0;
+ margin: 0;
+ background-color: #039;
+ color: #fff;
+ float: left;
+ width: 100%;
+ }
+ ul#navigation li { display: inline; }
+ ul#navigation li a {
+ padding: .25em 1em;
+ background-color: #039;
+ color: #fff;
+ text-decoration: none;
+ float: right;
+ border-bottom: solid 1px #fff;
+ border-top: solid 1px #fff;
+ border-right: solid 1px #fff;
+ }
+ a:link, a:visited { color: #fff; }
+ ul#navigation li a:hover {
+ color: #000;
+ background-color: #fff;
+ } 
+ul#navigation li#youarehere a {
+	 background-color: white; 
+	 color: blue;
+} 
+ 
+div#leftcolumn {
+	width:250px;
+	float:left;
+	
+	display: inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-color:#FFFFFF;
+	font-weight:bold;
+	font-size: 1em;
+	background-color:#000;
+	padding: 10px;
+	min-height: 775px;
+	text-align:left;
+	color: #FFF;
+	
+}
+
+div#content {
+	float:right;
+	width:630px;
+	background-color:#FFF;
+	text-align: center;
+	left: auto;
+	min-height:795px;
+}
+
+div#footer {
+	clear:both;
+	text-align:center;
+	width:960px;
+	height:69px;
+	background-color: #039;
+	padding-top: 10px;
+	
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header a a:visited a:link a:hover a:active  {
+	text-decoration:none;
+	color:none;
+}
+
+
+#header {
+	text-align: right;
+	padding-right:52x;
+}
+#header {
+	font-size: 12em;
+}
+#header {
+	font-size: 1.5em;
+}
+#page #header strong {
+	color: #FFF;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+#page #content p {
+	color: #000;
+}
+#footer {
+	color: #FFF;
+}
+#header strong {
+	color: #FFF;
+}
+#page #header {
+	color: #FFF;
+}
+
+#content p {
+	color: #000;
+}
+#page #content table tr td p strong {
+	color: #000;
+}
+#page #content table tr td p strong {
+	color: #000;
+}
+#page #content table tr td strong {
+	color: #00F;
+}
+#page #content table tr td {
+	color: #000;
+}
+#page #content table tr td {
+	font-weight: bold;
+}
+#page #content table tr td {
+	color: #000;
+}
+#page #content table tr td a {
+	color: #000;
+}
+#page #content h3 strong {
+	color: #000;
+}
+#page #content h3 strong {
+	color: #000;
+}
+#page #content h3 {
+	color: #000;
+}
+#page #content h3 strong {
+	color: #00F;
+}
+#page #content h3 strong {
+	color: #00F;
+}
+#page #content h3 {
+	color: #00F;
+}
+#page #leftcolumn {
+	color: #FFF;
+}
+#page #leftcolumn h3 {
+	color: #FFF;
+}
+#page #content table tr td h1 strong em {
+	color: #FFF;
+	text-align: center;
+}
